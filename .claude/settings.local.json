@@ -4,7 +4,15 @@
       "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/generate_simulated_data.py')",
       "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && sed -n \"1,28p\" outputs/phase1/generated_summary.txt')",
       "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/generate_simulated_data.py >/dev/null 2>&1 && grep -A1 \"hours_per_week \" outputs/phase1/generated_summary.txt | grep hours && echo \"--- income lines ---\" && grep -E \"Extreme|VeryHigh\" outputs/phase1/generated_summary.txt')",
-      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/validate_phase1.py; echo \"EXIT=$?\"')"
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/validate_phase1.py; echo \"EXIT=$?\"')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && time python3 src/anonymize.py')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && echo \"=== anon files ===\" && ls data/anonymized/ | head && echo \"count:\" && ls data/anonymized/ | wc -l && echo \"=== sample k=20 n3000 head ===\" && head -4 data/anonymized/simulated_adult_like_n3000_seed0_kanon_k20.csv && echo \"=== sample tclose head ===\" && head -4 data/anonymized/simulated_adult_like_n3000_seed0_tclose_k10_t0p2.csv && echo \"=== runtime cols ===\" && head -1 outputs/phase2/runtime_summary.csv')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/validate_anonymization.py; echo \"EXIT=$?\"')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/evaluate_anonymization.py; echo \"EXIT=$?\"')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/anonymize.py >/tmp/a.log 2>&1; echo \"anonymize exit=$?\"; python3 src/validate_anonymization.py >/tmp/v.log 2>&1; echo \"validate exit=$?\"; python3 src/evaluate_anonymization.py >/tmp/e.log 2>&1; echo \"evaluate exit=$?\"; echo \"=== validate tail ===\"; tail -4 /tmp/v.log; echo \"=== phase2 files ===\"; ls -1 outputs/phase2/; echo \"=== anonymized count ===\"; ls data/anonymized/ | wc -l')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/anonymize.py 2>&1 | grep -E \"FEASIBLE|INFEASIBLE\"')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 -c \" *)",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/anonymize.py >/tmp/a.log 2>&1; echo \"anonymize=$?\"; python3 src/validate_anonymization.py >/tmp/v.log 2>&1; echo \"validate=$?\"; python3 src/evaluate_anonymization.py >/tmp/e.log 2>&1; echo \"evaluate=$?\"; echo \"=== validate overall ===\"; grep -E \"OVERALL|fully PASS\" /tmp/v.log; echo \"=== evaluate aggregates ===\"; sed -n \"/Aggregate utility/,$p\" /tmp/e.log')"
     ]
   }
 }

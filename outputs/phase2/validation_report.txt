@@ -1,0 +1,242 @@
+==========================================================================
+PHASE 2 — INDEPENDENT VALIDATION OF ANONYMIZED OUTPUTS
+==========================================================================
+
+[PASS] simulated_adult_like_n3000_seed0 | k_anonymity k=5.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2857 raw=3000 suppressed=143 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=5 k=5 classes=96
+
+[PASS] simulated_adult_like_n3000_seed0 | k_anonymity k=10.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2906 raw=3000 suppressed=94 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=35
+
+[PASS] simulated_adult_like_n3000_seed0 | k_anonymity k=20.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2881 raw=3000 suppressed=119 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=22 k=20 classes=18
+
+[PASS] simulated_adult_like_n3000_seed0 | l_diversity ell=2.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2906 raw=3000 suppressed=94 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=35
+     PASS l_diversity                      min_distinct_sa=2 ell=2
+
+[PASS] simulated_adult_like_n3000_seed0 | l_diversity ell=3.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2868 raw=3000 suppressed=132 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=14 k=10 classes=20
+     PASS l_diversity                      min_distinct_sa=3 ell=3
+
+[PASS] simulated_adult_like_n3000_seed0 | l_diversity ell=4.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2932 raw=3000 suppressed=68 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=52 k=10 classes=11
+     PASS l_diversity                      min_distinct_sa=4 ell=4
+
+[PASS] simulated_adult_like_n3000_seed0 | t_closeness t=0.2
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2976 raw=3000 suppressed=24 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=34 k=10 classes=5
+     PASS t_closeness                      max_class_tvd=0.1781 t=0.2
+
+[PASS] simulated_adult_like_n3000_seed0 | t_closeness t=0.3
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2989 raw=3000 suppressed=11 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=21 k=10 classes=10
+     PASS t_closeness                      max_class_tvd=0.2897 t=0.3
+
+[PASS] simulated_adult_like_n3000_seed0 | t_closeness t=0.4
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=2852 raw=3000 suppressed=148 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=14
+     PASS t_closeness                      max_class_tvd=0.3466 t=0.4
+
+[PASS] simulated_adult_like_n5000_seed0 | k_anonymity k=5.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4865 raw=5000 suppressed=135 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=5 k=5 classes=115
+
+[PASS] simulated_adult_like_n5000_seed0 | k_anonymity k=10.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4819 raw=5000 suppressed=181 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=61
+
+[PASS] simulated_adult_like_n5000_seed0 | k_anonymity k=20.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4760 raw=5000 suppressed=240 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=21 k=20 classes=31
+
+[PASS] simulated_adult_like_n5000_seed0 | l_diversity ell=2.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4793 raw=5000 suppressed=207 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=60
+     PASS l_diversity                      min_distinct_sa=2 ell=2
+
+[PASS] simulated_adult_like_n5000_seed0 | l_diversity ell=3.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4816 raw=5000 suppressed=184 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=11 k=10 classes=40
+     PASS l_diversity                      min_distinct_sa=3 ell=3
+
+[PASS] simulated_adult_like_n5000_seed0 | l_diversity ell=4.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4796 raw=5000 suppressed=204 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=11 k=10 classes=28
+     PASS l_diversity                      min_distinct_sa=4 ell=4
+
+[PASS] simulated_adult_like_n5000_seed0 | t_closeness t=0.2
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4892 raw=5000 suppressed=108 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=2201 k=10 classes=2
+     PASS t_closeness                      max_class_tvd=0.0898 t=0.2
+
+[PASS] simulated_adult_like_n5000_seed0 | t_closeness t=0.3
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4800 raw=5000 suppressed=200 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=15 k=10 classes=38
+     PASS t_closeness                      max_class_tvd=0.2830 t=0.3
+
+[PASS] simulated_adult_like_n5000_seed0 | t_closeness t=0.4
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=4772 raw=5000 suppressed=228 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=27
+     PASS t_closeness                      max_class_tvd=0.3769 t=0.4
+
+[PASS] simulated_adult_like_n10000_seed0 | k_anonymity k=5.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9708 raw=10000 suppressed=292 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=5 k=5 classes=226
+
+[PASS] simulated_adult_like_n10000_seed0 | k_anonymity k=10.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9652 raw=10000 suppressed=348 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=111
+
+[PASS] simulated_adult_like_n10000_seed0 | k_anonymity k=20.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9619 raw=10000 suppressed=381 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=20 k=20 classes=63
+
+[PASS] simulated_adult_like_n10000_seed0 | l_diversity ell=2.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9639 raw=10000 suppressed=361 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=110
+     PASS l_diversity                      min_distinct_sa=2 ell=2
+
+[PASS] simulated_adult_like_n10000_seed0 | l_diversity ell=3.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9568 raw=10000 suppressed=432 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=70
+     PASS l_diversity                      min_distinct_sa=3 ell=3
+
+[PASS] simulated_adult_like_n10000_seed0 | l_diversity ell=4.0
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9636 raw=10000 suppressed=364 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=10 k=10 classes=52
+     PASS l_diversity                      min_distinct_sa=4 ell=4
+
+[PASS] simulated_adult_like_n10000_seed0 | t_closeness t=0.2
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9598 raw=10000 suppressed=402 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=29 k=10 classes=9
+     PASS t_closeness                      max_class_tvd=0.1971 t=0.2
+
+[PASS] simulated_adult_like_n10000_seed0 | t_closeness t=0.3
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9926 raw=10000 suppressed=74 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=15 k=10 classes=46
+     PASS t_closeness                      max_class_tvd=0.2840 t=0.3
+
+[PASS] simulated_adult_like_n10000_seed0 | t_closeness t=0.4
+     PASS schema_exact                     columns=['age', 'education_num', 'hours_per_week', 'income_class']
+     PASS no_missing_values                missing=0
+     PASS row_count_preserved_or_reported  rows_out=9549 raw=10000 suppressed=451 (row suppression reported)
+     PASS suppressed_qi_values_valid       all QI cells well-formed
+     PASS income_domain_unchanged          illegal=[] (row suppression — counts not compared)
+     PASS k_anonymity                      min_class_size=11 k=10 classes=30
+     PASS t_closeness                      max_class_tvd=0.3804 t=0.4
+
+==========================================================================
+Feasible outputs validated: 27/27 fully PASS
+OVERALL: PASS
+==========================================================================

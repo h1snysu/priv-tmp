@@ -1,0 +1,181 @@
+dataset,n,method,parameter,feasible,check,result,detail
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=5.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=5.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=5.0,True,row_count_preserved_or_reported,PASS,rows_out=2857 raw=3000 suppressed=143 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=5.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=5.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=5.0,True,k_anonymity,PASS,min_class_size=5 k=5 classes=96
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=10.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=10.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=10.0,True,row_count_preserved_or_reported,PASS,rows_out=2906 raw=3000 suppressed=94 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=10.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=10.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=10.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=35
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=20.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=20.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=20.0,True,row_count_preserved_or_reported,PASS,rows_out=2881 raw=3000 suppressed=119 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=20.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=20.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,k_anonymity,k=20.0,True,k_anonymity,PASS,min_class_size=22 k=20 classes=18
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=2.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=2.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=2.0,True,row_count_preserved_or_reported,PASS,rows_out=2906 raw=3000 suppressed=94 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=2.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=2.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=2.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=35
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=2.0,True,l_diversity,PASS,min_distinct_sa=2 ell=2
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=3.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=3.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=3.0,True,row_count_preserved_or_reported,PASS,rows_out=2868 raw=3000 suppressed=132 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=3.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=3.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=3.0,True,k_anonymity,PASS,min_class_size=14 k=10 classes=20
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=3.0,True,l_diversity,PASS,min_distinct_sa=3 ell=3
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=4.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=4.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=4.0,True,row_count_preserved_or_reported,PASS,rows_out=2932 raw=3000 suppressed=68 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=4.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=4.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=4.0,True,k_anonymity,PASS,min_class_size=52 k=10 classes=11
+simulated_adult_like_n3000_seed0,3000,l_diversity,ell=4.0,True,l_diversity,PASS,min_distinct_sa=4 ell=4
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.2,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.2,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.2,True,row_count_preserved_or_reported,PASS,rows_out=2976 raw=3000 suppressed=24 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.2,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.2,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.2,True,k_anonymity,PASS,min_class_size=34 k=10 classes=5
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.2,True,t_closeness,PASS,max_class_tvd=0.1781 t=0.2
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.3,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.3,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.3,True,row_count_preserved_or_reported,PASS,rows_out=2989 raw=3000 suppressed=11 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.3,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.3,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.3,True,k_anonymity,PASS,min_class_size=21 k=10 classes=10
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.3,True,t_closeness,PASS,max_class_tvd=0.2897 t=0.3
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.4,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.4,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.4,True,row_count_preserved_or_reported,PASS,rows_out=2852 raw=3000 suppressed=148 (row suppression reported)
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.4,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.4,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.4,True,k_anonymity,PASS,min_class_size=10 k=10 classes=14
+simulated_adult_like_n3000_seed0,3000,t_closeness,t=0.4,True,t_closeness,PASS,max_class_tvd=0.3466 t=0.4
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=5.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=5.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=5.0,True,row_count_preserved_or_reported,PASS,rows_out=4865 raw=5000 suppressed=135 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=5.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=5.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=5.0,True,k_anonymity,PASS,min_class_size=5 k=5 classes=115
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=10.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=10.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=10.0,True,row_count_preserved_or_reported,PASS,rows_out=4819 raw=5000 suppressed=181 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=10.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=10.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=10.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=61
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=20.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=20.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=20.0,True,row_count_preserved_or_reported,PASS,rows_out=4760 raw=5000 suppressed=240 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=20.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=20.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,k_anonymity,k=20.0,True,k_anonymity,PASS,min_class_size=21 k=20 classes=31
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=2.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=2.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=2.0,True,row_count_preserved_or_reported,PASS,rows_out=4793 raw=5000 suppressed=207 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=2.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=2.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=2.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=60
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=2.0,True,l_diversity,PASS,min_distinct_sa=2 ell=2
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=3.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=3.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=3.0,True,row_count_preserved_or_reported,PASS,rows_out=4816 raw=5000 suppressed=184 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=3.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=3.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=3.0,True,k_anonymity,PASS,min_class_size=11 k=10 classes=40
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=3.0,True,l_diversity,PASS,min_distinct_sa=3 ell=3
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=4.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=4.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=4.0,True,row_count_preserved_or_reported,PASS,rows_out=4796 raw=5000 suppressed=204 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=4.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=4.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=4.0,True,k_anonymity,PASS,min_class_size=11 k=10 classes=28
+simulated_adult_like_n5000_seed0,5000,l_diversity,ell=4.0,True,l_diversity,PASS,min_distinct_sa=4 ell=4
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.2,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.2,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.2,True,row_count_preserved_or_reported,PASS,rows_out=4892 raw=5000 suppressed=108 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.2,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.2,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.2,True,k_anonymity,PASS,min_class_size=2201 k=10 classes=2
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.2,True,t_closeness,PASS,max_class_tvd=0.0898 t=0.2
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.3,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.3,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.3,True,row_count_preserved_or_reported,PASS,rows_out=4800 raw=5000 suppressed=200 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.3,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.3,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.3,True,k_anonymity,PASS,min_class_size=15 k=10 classes=38
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.3,True,t_closeness,PASS,max_class_tvd=0.2830 t=0.3
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.4,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.4,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.4,True,row_count_preserved_or_reported,PASS,rows_out=4772 raw=5000 suppressed=228 (row suppression reported)
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.4,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.4,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.4,True,k_anonymity,PASS,min_class_size=10 k=10 classes=27
+simulated_adult_like_n5000_seed0,5000,t_closeness,t=0.4,True,t_closeness,PASS,max_class_tvd=0.3769 t=0.4
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=5.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=5.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=5.0,True,row_count_preserved_or_reported,PASS,rows_out=9708 raw=10000 suppressed=292 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=5.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=5.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=5.0,True,k_anonymity,PASS,min_class_size=5 k=5 classes=226
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=10.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=10.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=10.0,True,row_count_preserved_or_reported,PASS,rows_out=9652 raw=10000 suppressed=348 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=10.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=10.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=10.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=111
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=20.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=20.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=20.0,True,row_count_preserved_or_reported,PASS,rows_out=9619 raw=10000 suppressed=381 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=20.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=20.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,k_anonymity,k=20.0,True,k_anonymity,PASS,min_class_size=20 k=20 classes=63
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=2.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=2.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=2.0,True,row_count_preserved_or_reported,PASS,rows_out=9639 raw=10000 suppressed=361 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=2.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=2.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=2.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=110
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=2.0,True,l_diversity,PASS,min_distinct_sa=2 ell=2
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=3.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=3.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=3.0,True,row_count_preserved_or_reported,PASS,rows_out=9568 raw=10000 suppressed=432 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=3.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=3.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=3.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=70
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=3.0,True,l_diversity,PASS,min_distinct_sa=3 ell=3
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=4.0,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=4.0,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=4.0,True,row_count_preserved_or_reported,PASS,rows_out=9636 raw=10000 suppressed=364 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=4.0,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=4.0,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=4.0,True,k_anonymity,PASS,min_class_size=10 k=10 classes=52
+simulated_adult_like_n10000_seed0,10000,l_diversity,ell=4.0,True,l_diversity,PASS,min_distinct_sa=4 ell=4
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.2,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.2,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.2,True,row_count_preserved_or_reported,PASS,rows_out=9598 raw=10000 suppressed=402 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.2,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.2,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.2,True,k_anonymity,PASS,min_class_size=29 k=10 classes=9
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.2,True,t_closeness,PASS,max_class_tvd=0.1971 t=0.2
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.3,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.3,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.3,True,row_count_preserved_or_reported,PASS,rows_out=9926 raw=10000 suppressed=74 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.3,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.3,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.3,True,k_anonymity,PASS,min_class_size=15 k=10 classes=46
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.3,True,t_closeness,PASS,max_class_tvd=0.2840 t=0.3
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.4,True,schema_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.4,True,no_missing_values,PASS,missing=0
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.4,True,row_count_preserved_or_reported,PASS,rows_out=9549 raw=10000 suppressed=451 (row suppression reported)
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.4,True,suppressed_qi_values_valid,PASS,all QI cells well-formed
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.4,True,income_domain_unchanged,PASS,illegal=[] (row suppression — counts not compared)
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.4,True,k_anonymity,PASS,min_class_size=11 k=10 classes=30
+simulated_adult_like_n10000_seed0,10000,t_closeness,t=0.4,True,t_closeness,PASS,max_class_tvd=0.3804 t=0.4

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/evaluate_anonymization.py >/dev/null 2>&1; echo \"evaluate exit=$?\"; python3 -c \" *)"
+    ]
+  }
+}
