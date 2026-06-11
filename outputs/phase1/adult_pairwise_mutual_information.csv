@@ -1,0 +1,7 @@
+var_a,var_b,mutual_information_nats
+age,hours_per_week,0.075478690138395
+age,income,0.06293776399723139
+education_num,income,0.060115624425395406
+age,education_num,0.04975192036498282
+hours_per_week,income,0.03733067912239018
+education_num,hours_per_week,0.025781448835931624
