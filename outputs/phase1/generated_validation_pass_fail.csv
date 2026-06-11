@@ -1,0 +1,34 @@
+dataset,n,check,result,detail
+simulated_adult_like_n3000_seed0,3000,row_count,PASS,rows=3000 expected=3000
+simulated_adult_like_n3000_seed0,3000,columns_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n3000_seed0,3000,no_missing_values,PASS,missing_total=0
+simulated_adult_like_n3000_seed0,3000,numeric_integer_valued,PASS,non_integer_cols=[]
+simulated_adult_like_n3000_seed0,3000,numeric_in_range,PASS,all in range
+simulated_adult_like_n3000_seed0,3000,income_allowed_values,PASS,"values=['Extreme', 'High', 'Low', 'LowerMiddle', 'UpperMiddle', 'VeryHigh']"
+simulated_adult_like_n3000_seed0,3000,income_non_uniform,PASS,n_classes=6 max_dev_from_uniform=0.1733
+simulated_adult_like_n3000_seed0,3000,extreme_present,PASS,extreme_count=9
+simulated_adult_like_n3000_seed0,3000,extreme_proportion_in_band,PASS,"extreme_prop=0.0030 band=[0.001,0.005]"
+simulated_adult_like_n3000_seed0,3000,all_pairs_nonzero_mi,PASS,min_pairwise_mi=0.0337
+simulated_adult_like_n3000_seed0,3000,mi_mixed_strengths,PASS,weak=True medium=True strong=True
+simulated_adult_like_n5000_seed0,5000,row_count,PASS,rows=5000 expected=5000
+simulated_adult_like_n5000_seed0,5000,columns_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n5000_seed0,5000,no_missing_values,PASS,missing_total=0
+simulated_adult_like_n5000_seed0,5000,numeric_integer_valued,PASS,non_integer_cols=[]
+simulated_adult_like_n5000_seed0,5000,numeric_in_range,PASS,all in range
+simulated_adult_like_n5000_seed0,5000,income_allowed_values,PASS,"values=['Extreme', 'High', 'Low', 'LowerMiddle', 'UpperMiddle', 'VeryHigh']"
+simulated_adult_like_n5000_seed0,5000,income_non_uniform,PASS,n_classes=6 max_dev_from_uniform=0.1733
+simulated_adult_like_n5000_seed0,5000,extreme_present,PASS,extreme_count=15
+simulated_adult_like_n5000_seed0,5000,extreme_proportion_in_band,PASS,"extreme_prop=0.0030 band=[0.001,0.005]"
+simulated_adult_like_n5000_seed0,5000,all_pairs_nonzero_mi,PASS,min_pairwise_mi=0.0290
+simulated_adult_like_n5000_seed0,5000,mi_mixed_strengths,PASS,weak=True medium=True strong=True
+simulated_adult_like_n10000_seed0,10000,row_count,PASS,rows=10000 expected=10000
+simulated_adult_like_n10000_seed0,10000,columns_exact,PASS,"columns=['age', 'education_num', 'hours_per_week', 'income_class']"
+simulated_adult_like_n10000_seed0,10000,no_missing_values,PASS,missing_total=0
+simulated_adult_like_n10000_seed0,10000,numeric_integer_valued,PASS,non_integer_cols=[]
+simulated_adult_like_n10000_seed0,10000,numeric_in_range,PASS,all in range
+simulated_adult_like_n10000_seed0,10000,income_allowed_values,PASS,"values=['Extreme', 'High', 'Low', 'LowerMiddle', 'UpperMiddle', 'VeryHigh']"
+simulated_adult_like_n10000_seed0,10000,income_non_uniform,PASS,n_classes=6 max_dev_from_uniform=0.1733
+simulated_adult_like_n10000_seed0,10000,extreme_present,PASS,extreme_count=30
+simulated_adult_like_n10000_seed0,10000,extreme_proportion_in_band,PASS,"extreme_prop=0.0030 band=[0.001,0.005]"
+simulated_adult_like_n10000_seed0,10000,all_pairs_nonzero_mi,PASS,min_pairwise_mi=0.0253
+simulated_adult_like_n10000_seed0,10000,mi_mixed_strengths,PASS,weak=True medium=True strong=True

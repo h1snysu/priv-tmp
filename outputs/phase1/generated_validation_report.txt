@@ -1,0 +1,85 @@
+========================================================================
+PHASE 1 — INDEPENDENT VALIDATION REPORT
+========================================================================
+
+------------------------------------------------------------------------
+Dataset: simulated_adult_like_n3000_seed0
+Path:    data/raw/simulated_adult_like_n3000_seed0.csv
+------------------------------------------------------------------------
+  [PASS] row_count                  rows=3000 expected=3000
+  [PASS] columns_exact              columns=['age', 'education_num', 'hours_per_week', 'income_class']
+  [PASS] no_missing_values          missing_total=0
+  [PASS] numeric_integer_valued     non_integer_cols=[]
+  [PASS] numeric_in_range           all in range
+  [PASS] income_allowed_values      values=['Extreme', 'High', 'Low', 'LowerMiddle', 'UpperMiddle', 'VeryHigh']
+  [PASS] income_non_uniform         n_classes=6 max_dev_from_uniform=0.1733
+  [PASS] extreme_present            extreme_count=9
+  [PASS] extreme_proportion_in_band extreme_prop=0.0030 band=[0.001,0.005]
+  [PASS] all_pairs_nonzero_mi       min_pairwise_mi=0.0337
+  [PASS] mi_mixed_strengths         weak=True medium=True strong=True
+
+  Pairwise mutual information:
+    education_num  <-> income_class   0.2755  (strong)
+    age            <-> hours_per_week 0.1707  (strong)
+    age            <-> income_class   0.1450  (medium)
+    hours_per_week <-> income_class   0.0512  (medium)
+    age            <-> education_num  0.0433  (weak)
+    education_num  <-> hours_per_week 0.0337  (weak)
+
+  => simulated_adult_like_n3000_seed0: PASS (11/11 checks)
+
+------------------------------------------------------------------------
+Dataset: simulated_adult_like_n5000_seed0
+Path:    data/raw/simulated_adult_like_n5000_seed0.csv
+------------------------------------------------------------------------
+  [PASS] row_count                  rows=5000 expected=5000
+  [PASS] columns_exact              columns=['age', 'education_num', 'hours_per_week', 'income_class']
+  [PASS] no_missing_values          missing_total=0
+  [PASS] numeric_integer_valued     non_integer_cols=[]
+  [PASS] numeric_in_range           all in range
+  [PASS] income_allowed_values      values=['Extreme', 'High', 'Low', 'LowerMiddle', 'UpperMiddle', 'VeryHigh']
+  [PASS] income_non_uniform         n_classes=6 max_dev_from_uniform=0.1733
+  [PASS] extreme_present            extreme_count=15
+  [PASS] extreme_proportion_in_band extreme_prop=0.0030 band=[0.001,0.005]
+  [PASS] all_pairs_nonzero_mi       min_pairwise_mi=0.0290
+  [PASS] mi_mixed_strengths         weak=True medium=True strong=True
+
+  Pairwise mutual information:
+    education_num  <-> income_class   0.2678  (strong)
+    age            <-> hours_per_week 0.1547  (strong)
+    age            <-> income_class   0.1474  (medium)
+    hours_per_week <-> income_class   0.0447  (weak)
+    age            <-> education_num  0.0433  (weak)
+    education_num  <-> hours_per_week 0.0290  (weak)
+
+  => simulated_adult_like_n5000_seed0: PASS (11/11 checks)
+
+------------------------------------------------------------------------
+Dataset: simulated_adult_like_n10000_seed0
+Path:    data/raw/simulated_adult_like_n10000_seed0.csv
+------------------------------------------------------------------------
+  [PASS] row_count                  rows=10000 expected=10000
+  [PASS] columns_exact              columns=['age', 'education_num', 'hours_per_week', 'income_class']
+  [PASS] no_missing_values          missing_total=0
+  [PASS] numeric_integer_valued     non_integer_cols=[]
+  [PASS] numeric_in_range           all in range
+  [PASS] income_allowed_values      values=['Extreme', 'High', 'Low', 'LowerMiddle', 'UpperMiddle', 'VeryHigh']
+  [PASS] income_non_uniform         n_classes=6 max_dev_from_uniform=0.1733
+  [PASS] extreme_present            extreme_count=30
+  [PASS] extreme_proportion_in_band extreme_prop=0.0030 band=[0.001,0.005]
+  [PASS] all_pairs_nonzero_mi       min_pairwise_mi=0.0253
+  [PASS] mi_mixed_strengths         weak=True medium=True strong=True
+
+  Pairwise mutual information:
+    education_num  <-> income_class   0.2642  (strong)
+    age            <-> hours_per_week 0.1542  (strong)
+    age            <-> income_class   0.1488  (medium)
+    age            <-> education_num  0.0473  (weak)
+    hours_per_week <-> income_class   0.0390  (weak)
+    education_num  <-> hours_per_week 0.0253  (weak)
+
+  => simulated_adult_like_n10000_seed0: PASS (11/11 checks)
+
+========================================================================
+OVERALL: PASS
+========================================================================

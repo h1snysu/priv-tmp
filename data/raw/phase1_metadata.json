@@ -1,0 +1,121 @@
+{
+  "baseline_dataset": "UCI Adult",
+  "explanation": "The UCI Adult dataset was used ONLY as a statistical reference to calibrate marginal ranges/means and the sign/strength of dependencies. No Adult records are present in these datasets. The simulated data below is the dataset actually used for the privacy experiments (k-anonymity, l-diversity, t-closeness, non-private PrivBayes, private PrivBayes).",
+  "schema": {
+    "age": {
+      "type": "integer",
+      "range": [
+        18,
+        80
+      ],
+      "role": "quasi-identifier"
+    },
+    "education_num": {
+      "type": "integer",
+      "range": [
+        6,
+        16
+      ],
+      "role": "quasi-identifier"
+    },
+    "hours_per_week": {
+      "type": "integer",
+      "range": [
+        1,
+        70
+      ],
+      "role": "quasi-identifier"
+    },
+    "income_class": {
+      "type": "categorical_ordinal",
+      "categories": [
+        "Low",
+        "LowerMiddle",
+        "UpperMiddle",
+        "High",
+        "VeryHigh",
+        "Extreme"
+      ],
+      "role": "sensitive"
+    }
+  },
+  "quasi_identifiers": [
+    "age",
+    "education_num",
+    "hours_per_week"
+  ],
+  "sensitive_attribute": "income_class",
+  "income_class_target_probabilities": {
+    "Low": 0.28,
+    "LowerMiddle": 0.34,
+    "UpperMiddle": 0.24,
+    "High": 0.1,
+    "VeryHigh": 0.037,
+    "Extreme": 0.003
+  },
+  "dataset_sizes": [
+    3000,
+    5000,
+    10000
+  ],
+  "random_seed": 0,
+  "dependency_structure": {
+    "order": [
+      "age",
+      "education_num",
+      "hours_per_week",
+      "income_class"
+    ],
+    "edges": [
+      "age -> education_num",
+      "age -> hours_per_week",
+      "education_num -> hours_per_week",
+      "age -> income_class",
+      "education_num -> income_class",
+      "hours_per_week -> income_class"
+    ],
+    "notes": "Attributes are NOT independent. education_num is a noisy quadratic function of age; hours_per_week depends on age band and education_num; income_class is derived from a latent score that is a linear function of all three quasi-identifiers, then mapped to ordinal classes via quantile thresholds calibrated to the target proportions."
+  },
+  "age_bands": [
+    {
+      "range": [
+        18,
+        25
+      ],
+      "probability": 0.16
+    },
+    {
+      "range": [
+        26,
+        35
+      ],
+      "probability": 0.24
+    },
+    {
+      "range": [
+        36,
+        50
+      ],
+      "probability": 0.31
+    },
+    {
+      "range": [
+        51,
+        65
+      ],
+      "probability": 0.22
+    },
+    {
+      "range": [
+        66,
+        80
+      ],
+      "probability": 0.07
+    }
+  ],
+  "output_files": [
+    "data/raw/simulated_adult_like_n3000_seed0.csv",
+    "data/raw/simulated_adult_like_n5000_seed0.csv",
+    "data/raw/simulated_adult_like_n10000_seed0.csv"
+  ]
+}

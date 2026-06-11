@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/generate_simulated_data.py')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && sed -n \"1,28p\" outputs/phase1/generated_summary.txt')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/generate_simulated_data.py >/dev/null 2>&1 && grep -A1 \"hours_per_week \" outputs/phase1/generated_summary.txt | grep hours && echo \"--- income lines ---\" && grep -E \"Extreme|VeryHigh\" outputs/phase1/generated_summary.txt')",
+      "Bash(wsl -d Ubuntu -- bash -lc 'cd /home/ubu/school/priv/finalproject && python3 src/validate_phase1.py; echo \"EXIT=$?\"')"
+    ]
+  }
+}
