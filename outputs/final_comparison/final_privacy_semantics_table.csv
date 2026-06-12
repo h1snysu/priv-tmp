@@ -1,0 +1,6 @@
+group,privacy_model,privacy_semantics,controlling_parameter,randomized,seeds_aggregated,utility_role,validation_status
+k-anonymity,syntactic,each QI equivalence class has >= k records,k (class size),no,1,syntactic privacy via generalization/suppression,PASS
+l-diversity,syntactic,each class has >= l distinct sensitive values,l (SA diversity),no,1,guards against attribute disclosure within a class,PASS
+t-closeness,syntactic,per-class SA distribution within t of the global SA distribution,t (distribution closeness),no,1,limits SA distribution skew within a class,PASS
+non-private PrivBayes,none (utility upper baseline),NO privacy guarantee; exact MI structure + exact CPTs,r (parent degree),yes (sampling seed),5,best-achievable synthetic utility reference,PASS
+private PrivBayes,differential-privacy-style (simplified),DP-style randomized synthetic generation: exponential-mechanism structure + Laplace CPTs,"epsilon (total budget), r (parent degree)",yes (DP noise + seed),5,privacy-utility tradeoff vs epsilon,PASS

@@ -1,0 +1,104 @@
+==============================================================================
+FINAL COMPARATIVE ANALYSIS — Phases 2-4 (read-only)
+Main metric: COMMON-BIN (Phase 2 midpoint) average marginal TVD, lower=better.
+Privacy is compared by SEMANTICS, not as a single scalar (see semantics table).
+==============================================================================
+
+------------------------------------------------------------------------------
+Average marginal TVD by method (mean over n; std over seeds, averaged over n):
+------------------------------------------------------------------------------
+  k-anon (k=5)               2way=0.0969(+-n/a)  3way=0.1423(+-n/a)  runtime=0.6494s
+  k-anon (k=10)              2way=0.1481(+-n/a)  3way=0.2164(+-n/a)  runtime=0.6490s
+  k-anon (k=20)              2way=0.2555(+-n/a)  3way=0.3705(+-n/a)  runtime=0.6432s
+  l-div (l=2)                2way=0.1482(+-n/a)  3way=0.2162(+-n/a)  runtime=0.7084s
+  l-div (l=3)                2way=0.1519(+-n/a)  3way=0.2172(+-n/a)  runtime=0.7335s
+  l-div (l=4)                2way=0.2996(+-n/a)  3way=0.4237(+-n/a)  runtime=0.6796s
+  PrivBayes-NP (r=2)         2way=0.1461(+-0.0028)  3way=0.2218(+-0.0035)  runtime=1.8026s
+  PrivBayes-NP (r=1)         2way=0.1534(+-0.0027)  3way=0.2352(+-0.0035)  runtime=1.4428s
+  PrivBayes-NP (r=0)         2way=0.2083(+-0.0017)  3way=0.3474(+-0.0026)  runtime=1.1928s
+  PrivBayes-DP (r=1, eps=2)  2way=0.1590(+-0.0029)  3way=0.2418(+-0.0048)  runtime=0.2095s
+  PrivBayes-DP (r=1, eps=1)  2way=0.1675(+-0.0061)  3way=0.2545(+-0.0104)  runtime=0.2046s
+  PrivBayes-DP (r=2, eps=2)  2way=0.1709(+-0.0086)  3way=0.2562(+-0.0104)  runtime=0.4697s
+  PrivBayes-DP (r=1, eps=0.5) 2way=0.1912(+-0.0187)  3way=0.2892(+-0.0225)  runtime=0.2082s
+  PrivBayes-DP (r=2, eps=1)  2way=0.1934(+-0.0092)  3way=0.2859(+-0.0121)  runtime=0.4562s
+  PrivBayes-DP (r=0, eps=2)  2way=0.2095(+-0.0029)  3way=0.3504(+-0.0041)  runtime=0.0097s
+  PrivBayes-DP (r=0, eps=1)  2way=0.2099(+-0.0032)  3way=0.3507(+-0.0044)  runtime=0.0101s
+  PrivBayes-DP (r=0, eps=0.5) 2way=0.2111(+-0.0039)  3way=0.3518(+-0.0051)  runtime=0.0100s
+  PrivBayes-DP (r=2, eps=0.5) 2way=0.2274(+-0.0100)  3way=0.3321(+-0.0151)  runtime=0.4564s
+  PrivBayes-DP (r=0, eps=0.1) 2way=0.2335(+-0.0097)  3way=0.3693(+-0.0108)  runtime=0.0099s
+  PrivBayes-DP (r=1, eps=0.1) 2way=0.3303(+-0.0221)  3way=0.4592(+-0.0281)  runtime=0.2117s
+  PrivBayes-DP (r=2, eps=0.1) 2way=0.3720(+-0.0353)  3way=0.5146(+-0.0373)  runtime=0.4574s
+  t-close (t=0.4)            2way=0.2336(+-n/a)  3way=0.3203(+-n/a)  runtime=1.2227s
+  t-close (t=0.3)            2way=0.5509(+-n/a)  3way=0.7389(+-n/a)  runtime=1.2205s
+  t-close (t=0.2)            2way=0.5554(+-n/a)  3way=0.7404(+-n/a)  runtime=1.2276s
+
+Best (lowest 2-way TVD) within each comparison group:
+  k-anonymity              -> k-anon (k=5) (2way=0.0969)
+  l-diversity              -> l-div (l=2) (2way=0.1482)
+  t-closeness              -> t-close (t=0.4) (2way=0.2336)
+  non-private PrivBayes    -> PrivBayes-NP (r=2) (2way=0.1461)
+  private PrivBayes        -> PrivBayes-DP (r=1, eps=2) (2way=0.1590)
+
+------------------------------------------------------------------------------
+Private PrivBayes: utility vs epsilon, and privacy cost vs Phase 3 (req #4,#6):
+------------------------------------------------------------------------------
+  n=3000 r=0.0: 2way ['eps0.1:0.256', 'eps0.5:0.214', 'eps1:0.212', 'eps2:0.212']  improves-with-eps=True  | P3base=0.210 cost@eps_max=+0.001
+  n=3000 r=1.0: 2way ['eps0.1:0.405', 'eps0.5:0.220', 'eps1:0.182', 'eps2:0.167']  improves-with-eps=True  | P3base=0.156 cost@eps_max=+0.011
+  n=3000 r=2.0: 2way ['eps0.1:0.431', 'eps0.5:0.265', 'eps1:0.220', 'eps2:0.193']  improves-with-eps=True  | P3base=0.150 cost@eps_max=+0.043
+  n=5000 r=0.0: 2way ['eps0.1:0.230', 'eps0.5:0.211', 'eps1:0.210', 'eps2:0.210']  improves-with-eps=True  | P3base=0.208 cost@eps_max=+0.001
+  n=5000 r=1.0: 2way ['eps0.1:0.328', 'eps0.5:0.188', 'eps1:0.165', 'eps2:0.156']  improves-with-eps=True  | P3base=0.152 cost@eps_max=+0.004
+  n=5000 r=2.0: 2way ['eps0.1:0.375', 'eps0.5:0.228', 'eps1:0.198', 'eps2:0.170']  improves-with-eps=True  | P3base=0.146 cost@eps_max=+0.024
+  n=10000 r=0.0: 2way ['eps0.1:0.214', 'eps0.5:0.208', 'eps1:0.207', 'eps2:0.207']  improves-with-eps=True  | P3base=0.206 cost@eps_max=+0.001
+  n=10000 r=1.0: 2way ['eps0.1:0.258', 'eps0.5:0.166', 'eps1:0.156', 'eps2:0.154']  improves-with-eps=True  | P3base=0.152 cost@eps_max=+0.002
+  n=10000 r=2.0: 2way ['eps0.1:0.310', 'eps0.5:0.190', 'eps1:0.162', 'eps2:0.150']  improves-with-eps=True  | P3base=0.142 cost@eps_max=+0.008
+
+------------------------------------------------------------------------------
+Does r=1 or r=2 give better private utility under each epsilon (req #5)?
+------------------------------------------------------------------------------
+  n=3000 eps=0.1: best_r(2way)=0 best_r(3way)=0  r1_vs_r2_on_2way -> r=1
+  n=3000 eps=0.5: best_r(2way)=0 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=3000 eps=1: best_r(2way)=1 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=3000 eps=2: best_r(2way)=1 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=5000 eps=0.1: best_r(2way)=0 best_r(3way)=0  r1_vs_r2_on_2way -> r=1
+  n=5000 eps=0.5: best_r(2way)=1 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=5000 eps=1: best_r(2way)=1 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=5000 eps=2: best_r(2way)=1 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=10000 eps=0.1: best_r(2way)=0 best_r(3way)=0  r1_vs_r2_on_2way -> r=1
+  n=10000 eps=0.5: best_r(2way)=1 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=10000 eps=1: best_r(2way)=1 best_r(3way)=1  r1_vs_r2_on_2way -> r=1
+  n=10000 eps=2: best_r(2way)=2 best_r(3way)=2  r1_vs_r2_on_2way -> r=2
+
+------------------------------------------------------------------------------
+Private PrivBayes vs Phase 2 syntactic methods (req #7): different privacy
+semantics, so this contrasts UTILITY under DP-style vs syntactic privacy.
+------------------------------------------------------------------------------
+  Phase 2 syntactic 2way TVD range: 0.0969 .. 0.5554 (mean 0.2711)
+  Private PrivBayes 2way TVD range: 0.1590 (eps=2 best) .. 0.3720 (eps=0.1 worst)
+  => At high epsilon, private PrivBayes utility is competitive with / better than
+     several syntactic settings; at eps=0.1 it is noisier. Privacy MEANING differs.
+
+------------------------------------------------------------------------------
+Phase 4 validation & privacy-accounting checks (req #8, #9):
+------------------------------------------------------------------------------
+  [PASS] synthetic_validation         1440/1440 PASS (expected 1440)
+  [PASS] noisy_cpt_validation         720/720 PASS (expected 720)
+  [PASS] expected_files_present       180/180 private CSVs
+  [PASS] privacy_accounting_complete  180/180 rows, required fields complete
+  [PASS] phase2_validation           OVERALL: PASS
+
+------------------------------------------------------------------------------
+Caveats / non-overclaim:
+  * Main TVD uses the shared common-bin space; strict_symbolic_tvd is an appendix
+    column only (more conservative, treats generalized cells as own categories).
+  * Phase 4 is a SIMPLIFIED private PrivBayes (direct-MI exponential mechanism,
+    basic sequential composition) — not the full paper; not a DP proof.
+  * Recorded runtimes reflect implementation choices (Phase 3 uses per-record
+    sampling; Phase 4 sampling is vectorized), not just algorithmic cost.
+  * Phase 2 is single-seed (seed 0); its std is reported as n/a.
+
+Saved tables:
+  - outputs/final_comparison/final_utility_comparison.csv
+  - outputs/final_comparison/final_runtime_comparison.csv
+  - outputs/final_comparison/final_phase3_vs_phase4_by_epsilon.csv
+  - outputs/final_comparison/final_best_private_settings.csv
+  - outputs/final_comparison/final_privacy_semantics_table.csv

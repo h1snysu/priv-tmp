@@ -1,0 +1,73 @@
+phase,group,method_label,n,runtime_s_mean,runtime_s_std
+phase2,k-anonymity,k-anon (k=10),3000,0.513497,
+phase2,k-anonymity,k-anon (k=20),3000,0.538597,
+phase2,k-anonymity,k-anon (k=5),3000,0.517319,
+phase2,l-diversity,l-div (l=2),3000,0.594244,
+phase2,l-diversity,l-div (l=3),3000,0.538685,
+phase2,l-diversity,l-div (l=4),3000,0.523781,
+phase2,t-closeness,t-close (t=0.2),3000,1.022932,
+phase2,t-closeness,t-close (t=0.3),3000,1.020244,
+phase2,t-closeness,t-close (t=0.4),3000,1.028266,
+phase2,k-anonymity,k-anon (k=10),5000,0.572177,
+phase2,k-anonymity,k-anon (k=20),5000,0.561554,
+phase2,k-anonymity,k-anon (k=5),5000,0.569101,
+phase2,l-diversity,l-div (l=2),5000,0.62152,
+phase2,l-diversity,l-div (l=3),5000,0.613167,
+phase2,l-diversity,l-div (l=4),5000,0.623251,
+phase2,t-closeness,t-close (t=0.2),5000,1.162476,
+phase2,t-closeness,t-close (t=0.3),5000,1.150881,
+phase2,t-closeness,t-close (t=0.4),5000,1.150183,
+phase2,k-anonymity,k-anon (k=10),10000,0.861222,
+phase2,k-anonymity,k-anon (k=20),10000,0.829552,
+phase2,k-anonymity,k-anon (k=5),10000,0.861708,
+phase2,l-diversity,l-div (l=2),10000,0.909363,
+phase2,l-diversity,l-div (l=3),10000,1.048688,
+phase2,l-diversity,l-div (l=4),10000,0.89171,
+phase2,t-closeness,t-close (t=0.2),10000,1.497379,
+phase2,t-closeness,t-close (t=0.3),10000,1.490334,
+phase2,t-closeness,t-close (t=0.4),10000,1.489696,
+phase3,non-private PrivBayes,PrivBayes-NP (r=0),3000,0.627679,0.038674
+phase3,non-private PrivBayes,PrivBayes-NP (r=1),3000,0.83119,0.113259
+phase3,non-private PrivBayes,PrivBayes-NP (r=2),3000,0.971495,0.106246
+phase3,non-private PrivBayes,PrivBayes-NP (r=0),5000,0.976383,0.03639
+phase3,non-private PrivBayes,PrivBayes-NP (r=1),5000,1.247108,0.059148
+phase3,non-private PrivBayes,PrivBayes-NP (r=2),5000,1.424452,0.110454
+phase3,non-private PrivBayes,PrivBayes-NP (r=0),10000,1.974268,0.099206
+phase3,non-private PrivBayes,PrivBayes-NP (r=1),10000,2.250163,0.129003
+phase3,non-private PrivBayes,PrivBayes-NP (r=2),10000,3.011755,0.46798
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=0.1)",3000,0.007315,0.00057
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=0.5)",3000,0.008141,0.001181
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=1)",3000,0.008046,0.000299
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=2)",3000,0.007258,0.000418
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=0.1)",3000,0.175357,0.006886
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=0.5)",3000,0.17054,0.009108
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=1)",3000,0.161978,0.005639
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=2)",3000,0.171006,0.004153
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=0.1)",3000,0.300892,0.00768
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=0.5)",3000,0.300386,0.009594
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=1)",3000,0.29372,0.009121
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=2)",3000,0.322781,0.008308
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=0.1)",5000,0.009475,0.000471
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=0.5)",5000,0.008942,0.000428
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=1)",5000,0.009297,0.000617
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=2)",5000,0.008966,0.000311
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=0.1)",5000,0.190972,0.003594
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=0.5)",5000,0.196872,0.012464
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=1)",5000,0.191793,0.004385
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=2)",5000,0.195418,0.012373
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=0.1)",5000,0.397648,0.004285
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=0.5)",5000,0.405365,0.007743
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=1)",5000,0.411242,0.011685
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=2)",5000,0.404795,0.009483
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=0.1)",10000,0.013018,0.000662
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=0.5)",10000,0.012809,0.000405
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=1)",10000,0.012883,0.000985
+phase4,private PrivBayes,"PrivBayes-DP (r=0, eps=2)",10000,0.012928,0.000468
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=0.1)",10000,0.268823,0.015544
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=0.5)",10000,0.257078,0.007388
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=1)",10000,0.260076,0.008051
+phase4,private PrivBayes,"PrivBayes-DP (r=1, eps=2)",10000,0.262119,0.010627
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=0.1)",10000,0.673725,0.016371
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=0.5)",10000,0.663402,0.014115
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=1)",10000,0.663498,0.012031
+phase4,private PrivBayes,"PrivBayes-DP (r=2, eps=2)",10000,0.681599,0.021936
