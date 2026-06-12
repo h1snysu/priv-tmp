@@ -1,0 +1,3077 @@
+{
+  "n3000_r0_seed0": {
+    "n": 3000,
+    "r": 0,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n3000_r0_seed1": {
+    "n": 3000,
+    "r": 0,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "age",
+      "hours_per_week",
+      "income_class"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n3000_r0_seed2": {
+    "n": 3000,
+    "r": 0,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n3000_r0_seed3": {
+    "n": 3000,
+    "r": 0,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n3000_r0_seed4": {
+    "n": 3000,
+    "r": 0,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "education_num",
+      "income_class"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n3000_r1_seed0": {
+    "n": 3000,
+    "r": 1,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.129583,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.131864,
+        "degree": 1
+      }
+    ]
+  },
+  "n3000_r1_seed1": {
+    "n": 3000,
+    "r": 1,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "income_class",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.129583,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.131864,
+        "degree": 1
+      }
+    ]
+  },
+  "n3000_r1_seed2": {
+    "n": 3000,
+    "r": 1,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.129583,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.131864,
+        "degree": 1
+      }
+    ]
+  },
+  "n3000_r1_seed3": {
+    "n": 3000,
+    "r": 1,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.129583,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.131864,
+        "degree": 1
+      }
+    ]
+  },
+  "n3000_r1_seed4": {
+    "n": 3000,
+    "r": 1,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "income_class",
+      "education_num"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "age"
+        ]
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.131864,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "income_class",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.129583,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      }
+    ]
+  },
+  "n3000_r2_seed0": {
+    "n": 3000,
+    "r": 2,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.172671,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.196392,
+        "degree": 2
+      }
+    ]
+  },
+  "n3000_r2_seed1": {
+    "n": 3000,
+    "r": 2,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "income_class",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.172671,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.196392,
+        "degree": 2
+      }
+    ]
+  },
+  "n3000_r2_seed2": {
+    "n": 3000,
+    "r": 2,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.172671,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.196392,
+        "degree": 2
+      }
+    ]
+  },
+  "n3000_r2_seed3": {
+    "n": 3000,
+    "r": 2,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.286015,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.172671,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.196392,
+        "degree": 2
+      }
+    ]
+  },
+  "n3000_r2_seed4": {
+    "n": 3000,
+    "r": 2,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "income_class",
+      "education_num"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "age",
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.131864,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "income_class",
+        "parents": [
+          "age",
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.194111,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "education_num",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.329102,
+        "degree": 2
+      }
+    ]
+  },
+  "n5000_r0_seed0": {
+    "n": 5000,
+    "r": 0,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n5000_r0_seed1": {
+    "n": 5000,
+    "r": 0,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "age",
+      "hours_per_week",
+      "income_class"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n5000_r0_seed2": {
+    "n": 5000,
+    "r": 0,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n5000_r0_seed3": {
+    "n": 5000,
+    "r": 0,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n5000_r0_seed4": {
+    "n": 5000,
+    "r": 0,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "education_num",
+      "income_class"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n5000_r1_seed0": {
+    "n": 5000,
+    "r": 1,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138735,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.119099,
+        "degree": 1
+      }
+    ]
+  },
+  "n5000_r1_seed1": {
+    "n": 5000,
+    "r": 1,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "income_class",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138735,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.119099,
+        "degree": 1
+      }
+    ]
+  },
+  "n5000_r1_seed2": {
+    "n": 5000,
+    "r": 1,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138735,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.119099,
+        "degree": 1
+      }
+    ]
+  },
+  "n5000_r1_seed3": {
+    "n": 5000,
+    "r": 1,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138735,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.119099,
+        "degree": 1
+      }
+    ]
+  },
+  "n5000_r1_seed4": {
+    "n": 5000,
+    "r": 1,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "income_class",
+      "education_num"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "age"
+        ]
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.119099,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "income_class",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.138735,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      }
+    ]
+  },
+  "n5000_r2_seed0": {
+    "n": 5000,
+    "r": 2,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167794,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.169455,
+        "degree": 2
+      }
+    ]
+  },
+  "n5000_r2_seed1": {
+    "n": 5000,
+    "r": 2,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "income_class",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167794,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.169455,
+        "degree": 2
+      }
+    ]
+  },
+  "n5000_r2_seed2": {
+    "n": 5000,
+    "r": 2,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167794,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.169455,
+        "degree": 2
+      }
+    ]
+  },
+  "n5000_r2_seed3": {
+    "n": 5000,
+    "r": 2,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.275594,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167794,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.169455,
+        "degree": 2
+      }
+    ]
+  },
+  "n5000_r2_seed4": {
+    "n": 5000,
+    "r": 2,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "income_class",
+      "education_num"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "age",
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.119099,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "income_class",
+        "parents": [
+          "age",
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.189091,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "education_num",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.304653,
+        "degree": 2
+      }
+    ]
+  },
+  "n10000_r0_seed0": {
+    "n": 10000,
+    "r": 0,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n10000_r0_seed1": {
+    "n": 10000,
+    "r": 0,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "age",
+      "hours_per_week",
+      "income_class"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n10000_r0_seed2": {
+    "n": 10000,
+    "r": 0,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n10000_r0_seed3": {
+    "n": 10000,
+    "r": 0,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "age",
+      "education_num",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n10000_r0_seed4": {
+    "n": 10000,
+    "r": 0,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "education_num",
+      "income_class"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": []
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 2,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      },
+      {
+        "step": 3,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "degree": 0
+      }
+    ]
+  },
+  "n10000_r1_seed0": {
+    "n": 10000,
+    "r": 1,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138833,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.123256,
+        "degree": 1
+      }
+    ]
+  },
+  "n10000_r1_seed1": {
+    "n": 10000,
+    "r": 1,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "income_class",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138833,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.123256,
+        "degree": 1
+      }
+    ]
+  },
+  "n10000_r1_seed2": {
+    "n": 10000,
+    "r": 1,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138833,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.123256,
+        "degree": 1
+      }
+    ]
+  },
+  "n10000_r1_seed3": {
+    "n": 10000,
+    "r": 1,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.138833,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.123256,
+        "degree": 1
+      }
+    ]
+  },
+  "n10000_r1_seed4": {
+    "n": 10000,
+    "r": 1,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "income_class",
+      "education_num"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "age"
+        ]
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.123256,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "income_class",
+        "parents": [
+          "age"
+        ],
+        "mutual_information_nats": 0.138833,
+        "degree": 1
+      },
+      {
+        "step": 3,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      }
+    ]
+  },
+  "n10000_r2_seed0": {
+    "n": 10000,
+    "r": 2,
+    "seed": 0,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.157819,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167118,
+        "degree": 2
+      }
+    ]
+  },
+  "n10000_r2_seed1": {
+    "n": 10000,
+    "r": 2,
+    "seed": 1,
+    "order": [
+      "education_num",
+      "income_class",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "education_num",
+        "parents": []
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "education_num",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "income_class",
+        "parents": [
+          "education_num"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.157819,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167118,
+        "degree": 2
+      }
+    ]
+  },
+  "n10000_r2_seed2": {
+    "n": 10000,
+    "r": 2,
+    "seed": 2,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.157819,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167118,
+        "degree": 2
+      }
+    ]
+  },
+  "n10000_r2_seed3": {
+    "n": 10000,
+    "r": 2,
+    "seed": 3,
+    "order": [
+      "income_class",
+      "education_num",
+      "age",
+      "hours_per_week"
+    ],
+    "network": [
+      {
+        "attribute": "income_class",
+        "parents": []
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ]
+      },
+      {
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "income_class",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "education_num",
+        "parents": [
+          "income_class"
+        ],
+        "mutual_information_nats": 0.273411,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "age",
+        "parents": [
+          "education_num",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.157819,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "hours_per_week",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.167118,
+        "degree": 2
+      }
+    ]
+  },
+  "n10000_r2_seed4": {
+    "n": 10000,
+    "r": 2,
+    "seed": 4,
+    "order": [
+      "hours_per_week",
+      "age",
+      "income_class",
+      "education_num"
+    ],
+    "network": [
+      {
+        "attribute": "hours_per_week",
+        "parents": []
+      },
+      {
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "income_class",
+        "parents": [
+          "age",
+          "hours_per_week"
+        ]
+      },
+      {
+        "attribute": "education_num",
+        "parents": [
+          "age",
+          "income_class"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 0,
+        "attribute": "hours_per_week",
+        "parents": [],
+        "mutual_information_nats": 0.0,
+        "note": "random root"
+      },
+      {
+        "step": 1,
+        "attribute": "age",
+        "parents": [
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.123256,
+        "degree": 1
+      },
+      {
+        "step": 2,
+        "attribute": "income_class",
+        "parents": [
+          "age",
+          "hours_per_week"
+        ],
+        "mutual_information_nats": 0.182694,
+        "degree": 2
+      },
+      {
+        "step": 3,
+        "attribute": "education_num",
+        "parents": [
+          "age",
+          "income_class"
+        ],
+        "mutual_information_nats": 0.292397,
+        "degree": 2
+      }
+    ]
+  }
+}
