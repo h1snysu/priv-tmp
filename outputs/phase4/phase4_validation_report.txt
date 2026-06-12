@@ -1,0 +1,20 @@
+==========================================================================
+PHASE 4 — INDEPENDENT VALIDATION (simplified private PrivBayes)
+Validates implementation consistency + budget accounting. It does NOT
+prove differential privacy.
+==========================================================================
+
+Global non-private-artifact guard:
+     PASS private_source_tag         sources=['phase4_private_exponential_mechanism']
+     PASS network_not_phase3_copy    69/180 structures identical to Phase 3 (frac=0.38)
+     PASS outputs_in_private_dir     /home/hysu/priv/priv-tmp/data/synthetic/private
+
+
+==========================================================================
+Combinations validated: 180/180 fully PASS (expected 180)
+OVERALL: PASS
+==========================================================================
+
+Saved:
+  - outputs/phase4/noisy_cpt_validation_summary.csv
+  - outputs/phase4/synthetic_validation_summary.csv

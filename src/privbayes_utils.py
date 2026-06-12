@@ -99,6 +99,29 @@ def synthetic_path(n: int, r: int, seed: int) -> Path:
     return synthetic_dir() / f"privbayes_np_n{n}_r{r}_seed{seed}.csv"
 
 
+# Phase 4 (private) paths. eps is formatted as in the spec, e.g. eps0.1, eps2.0.
+def private_synthetic_dir() -> Path:
+    return project_root() / "data" / "synthetic" / "private"
+
+
+def phase4_dir() -> Path:
+    return project_root() / "outputs" / "phase4"
+
+
+def eps_tag(eps: float) -> str:
+    """Canonical epsilon string used in filenames / run keys: 0.1 -> 'eps0.1'."""
+    return f"eps{eps:g}"
+
+
+def private_synthetic_path(n: int, r: int, eps: float, seed: int) -> Path:
+    return (private_synthetic_dir()
+            / f"privbayes_private_n{n}_r{r}_{eps_tag(eps)}_seed{seed}.csv")
+
+
+# Phase 4 parameter grid (privacy budgets). n / r / seeds reuse the shared lists.
+EPSILONS = [0.1, 0.5, 1.0, 2.0]
+
+
 def load_raw(n: int) -> pd.DataFrame:
     return pd.read_csv(raw_path(n))
 
@@ -117,6 +140,20 @@ HOURS_BINS = [(1, 9, "1-9"), (10, 19, "10-19"), (20, 29, "20-29"),
 EDU_VALUES = list(range(6, 17))
 
 NUMERIC_BINS = {"age": AGE_BINS, "hours_per_week": HOURS_BINS}
+
+# Public, data-INDEPENDENT discrete domain for every attribute, derived purely
+# from the fixed discretization constants above (never from any dataset). Phase
+# 4's private noisy CPTs enumerate the full Cartesian product over these domains
+# so that Laplace noise is added to *all* cells, including zero-count cells,
+# without revealing which cells were occupied. (Added for Phase 4; Phase 3 code
+# does not use it, so this is a non-breaking addition.)
+FIXED_DOMAINS = {
+    "age": [label for _, _, label in AGE_BINS],
+    "education_num": [str(v) for v in EDU_VALUES],
+    "hours_per_week": [label for _, _, label in HOURS_BINS],
+    "income_class": list(INCOME_DOMAIN),
+}
+
 
 def _round_half_up(x: float) -> int:
     """Round-half-up (not Python's banker's rounding) so documented midpoints
