@@ -170,10 +170,13 @@ def private_greedy_bayes(disc_df: pd.DataFrame, r: int, eps_structure: float,
         network.append((pick_x, pick_parents))
         selected.append(pick_x)
         remaining.remove(pick_x)
+        # NOTE: we deliberately do NOT persist the selected candidate's raw MI
+        # score. The exponential mechanism privatizes the *choice* of candidate,
+        # not the exact data-dependent score; saving the raw score would be an
+        # additional, unaccounted release. delta_i depends only on the public n.
         trace.append({"step": step, "attribute": pick_x,
                       "parents": list(pick_parents),
                       "mechanism": "exponential", "epsilon_step": eps_step,
-                      "score_mi_nats": round(float(scores[idx]), 6),
                       "delta_i": round(float(delta_i), 8),
                       "used_uniform_fallback": used_uniform})
         if used_uniform:
@@ -337,7 +340,6 @@ def main() -> None:
     runtime_rows: list[dict] = []
     network_rows: list[dict] = []
     acct_rows: list[dict] = []
-    mi_rows: list[dict] = []
     learned: dict = {}
 
     lines: list[str] = []
@@ -352,6 +354,30 @@ def main() -> None:
          "direct MI")
     emit("score (not surrogate F) and basic sequential composition. NOT the "
          "full paper.")
+    emit("=" * 74)
+    emit()
+    emit("SCOPE / NON-OVERCLAIM ----------------------------------------------")
+    emit("We implement a SIMPLIFIED private PrivBayes-style mechanism. Unlike")
+    emit("the full PrivBayes paper, we use direct mutual information as the")
+    emit("exponential-mechanism quality score instead of the paper's lower-")
+    emit("sensitivity surrogate function F, we use basic sequential")
+    emit("composition, and a fixed parent-degree grid r in {0,1,2}.")
+    emit("")
+    emit("ARTIFACT CLASSIFICATION --------------------------------------------")
+    emit("PRIVATE RELEASE (consumes the epsilon budget below):")
+    emit("  - synthetic datasets under data/synthetic/private/")
+    emit("  - the private network STRUCTURE in learned_networks_private.json")
+    emit("    (the exponential-mechanism output: chosen attribute + parents).")
+    emit("  We deliberately do NOT persist the selected candidates' raw MI")
+    emit("  scores: the exponential mechanism privatizes the CHOICE, not the")
+    emit("  exact data-dependent score, so saving it would be an unaccounted")
+    emit("  release. privacy_accounting_summary.csv documents the full budget.")
+    emit("")
+    emit("TRUSTED CURATOR-SIDE EVALUATION (NOT part of the private release):")
+    emit("  - marginal_tvd_summary.csv, pairwise_mi_summary.csv (incl. RAW MI),")
+    emit("    and all raw-vs-synthetic utility numbers are computed with full")
+    emit("    raw-data access for analysis only. They must NOT be published as")
+    emit("    if they were differentially private outputs.")
     emit("=" * 74)
     emit()
 
@@ -426,12 +452,6 @@ def main() -> None:
                         "source": "phase4_private_exponential_mechanism",
                     }
 
-                # one pairwise-MI diagnostic per (n) on discretised raw
-                if r == U.R_VALUES[0] and eps == U.EPSILONS[0]:
-                    for (a, b), mi in U.pairwise_mutual_information(disc_n).items():
-                        mi_rows.append({"n": n, "var_a": a, "var_b": b,
-                                        "raw_mi_nats": round(mi, 6)})
-
         emit(f"n={n}: generated {len(U.R_VALUES) * len(U.EPSILONS) * len(U.SEEDS)} "
              f"private datasets (Delta_I={delta_i:.6g} nats)")
 
@@ -442,8 +462,6 @@ def main() -> None:
         U.phase4_dir() / "network_summary.csv", index=False)
     pd.DataFrame(acct_rows).to_csv(
         U.phase4_dir() / "privacy_accounting_summary.csv", index=False)
-    pd.DataFrame(mi_rows).to_csv(
-        U.phase4_dir() / "pairwise_mi_summary.csv", index=False)
     with open(U.phase4_dir() / "learned_networks_private.json", "w",
               encoding="utf-8") as fh:
         json.dump(learned, fh, indent=2)
@@ -460,7 +478,7 @@ def main() -> None:
     emit("Saved:")
     for name in ("runtime_summary.csv", "network_summary.csv",
                  "privacy_accounting_summary.csv",
-                 "learned_networks_private.json", "pairwise_mi_summary.csv"):
+                 "learned_networks_private.json"):
         emit(f"  - {(U.phase4_dir() / name).relative_to(U.project_root())}")
     emit(f"  - {U.private_synthetic_dir().relative_to(U.project_root())}/ "
          f"({len(runtime_rows)} CSV files)")
